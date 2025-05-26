@@ -10,10 +10,11 @@ st.markdown("<hr>", unsafe_allow_html=True)
 
 # Kullanıcının seçeceği test türleri ve modelleri
 test_models = {
-    "Zigzag 10°": "zigzag_10_model_cloud13.pkl",
-    "35° Sancak Dönüşü": "sancak_35_model_cloud13.pkl",
-    "35° İskele Dönüşü": "iskele_35_model_cloud13.pkl"
+    "Zigzag 10°": "zigzag_10_heading_model_win.pkl",
+    "35° Sancak Dönüşü": "sancak_35_heading_model_win.pkl",
+    "35° İskele Dönüşü": "iskele_35_heading_model_win.pkl"
 }
+
 
 # Test türünü seçtir
 selected_test = st.selectbox("◉ Test Türünü Seçin", list(test_models.keys()))
