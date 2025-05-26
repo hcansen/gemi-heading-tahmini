@@ -15,7 +15,7 @@ test_models = {
     "35° İskele Dönüşü": "iskele_35_model_cloud13.pkl"
 }
 
-}
+
 }
 
 }
