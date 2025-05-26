@@ -21,8 +21,8 @@ selected_test = st.selectbox("◉ Test Türünü Seçin", list(test_models.keys(
 model_file = test_models[selected_test]
 
 # Modeli yükle
-model_path = os.path.abspath(model_file)
-model = joblib.load(model_path)
+model = joblib.load(model_file)
+
 
 # CSV yükle
 st.markdown("### 📥 CSV Dosyası Yükleyin")
