@@ -24,6 +24,7 @@ model_file = test_models[selected_test]
 model = joblib.load(model_file)
 
 
+
 # CSV yükle
 st.markdown("### 📥 CSV Dosyası Yükleyin")
 uploaded_file = st.file_uploader("Rudder ve speed_total içeren bir dosya yükleyin", type=["csv"])
