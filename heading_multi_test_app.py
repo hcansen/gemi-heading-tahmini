@@ -10,9 +10,11 @@ st.markdown("<hr>", unsafe_allow_html=True)
 
 # Kullanıcının seçeceği test türleri ve modelleri
 test_models = {
-    "Zigzag 10°": "zigzag_10_heading_model.pkl",
-    "35° Sancak Dönüşü": "sancak_35_heading_model.pkl",
-    "35° İskele Dönüşü": "iskele_35_heading_model.pkl"
+    "Zigzag 10°": "zigzag_10_heading_model_streamlit.pkl",
+    "35° Sancak Dönüşü": "sancak_35_heading_model_streamlit.pkl",
+    "35° İskele Dönüşü": "iskele_35_heading_model_streamlit.pkl"
+}
+
 }
 
 # Test türünü seçtir
