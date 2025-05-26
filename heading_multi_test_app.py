@@ -12,9 +12,7 @@ st.markdown("<hr>", unsafe_allow_html=True)
 test_models = {
     "Zigzag 10°": "zigzag_10_model_cloud13.pkl",
     "35° Sancak Dönüşü": "sancak_35_model_cloud13.pkl",
-    "35° İskele Dönüşü": "iskele_35_model_cloud13.pkl"
-}
-
+    "35° İskele Dönüşü": "iskele_35_model_cloud13.pkl}
 
 
 
