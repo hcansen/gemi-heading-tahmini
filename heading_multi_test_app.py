@@ -14,6 +14,8 @@ test_models = {
     "35° Sancak Dönüşü": "sancak_35_model_cloud13.pkl",
     "35° İskele Dönüşü": "iskele_35_model_cloud13.pkl"
 }
+
+}
 }
 
 }
