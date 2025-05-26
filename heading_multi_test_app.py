@@ -16,9 +16,7 @@ test_models = {
 }
 
 
-}
 
-}
 
 # Test türünü seçtir
 selected_test = st.selectbox("◉ Test Türünü Seçin", list(test_models.keys()))
